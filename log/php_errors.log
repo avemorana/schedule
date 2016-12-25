@@ -1,0 +1,11 @@
+[25-Dec-2016 19:56:14 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 19:56:19 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 19:56:29 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 19:56:49 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 19:57:29 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 19:57:47 Europe/Moscow] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in C:\OpenServer\domains\schedule\components\Database.php on line 19
+[25-Dec-2016 19:58:49 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 20:01:29 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 20:06:49 Europe/Moscow] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'lectures21' in C:\OpenServer\domains\schedule\components\Database.php on line 13
+[25-Dec-2016 20:06:49 Europe/Moscow] PHP Fatal error:  Call to a member function query() on null in C:\OpenServer\domains\schedule\models\Building.php on line 17
+[25-Dec-2016 20:06:49 Europe/Moscow] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'MainController' does not have a method 'actionMainfmain' in C:\OpenServer\domains\schedule\components\Router.php on line 49

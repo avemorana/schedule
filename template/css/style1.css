@@ -1,0 +1,103 @@
+.content {
+    padding: 1%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.body {
+    width: 1000px;
+    margin: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7f7f9;
+    padding: .5rem 1rem;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 22px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+}
+
+table {
+    table-layout: auto;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.col1 {
+    width: 25%;
+}
+
+.col2 {
+    width: 50%;
+}
+
+.form {
+    margin: 7%;
+}
+
+.titlePage {
+    margin-left: 20px;
+
+}
+
+.numBuild {
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    color: #55595c;
+    background-color: #dddddd;
+}
+
+.numBuild:hover {
+    background-color: #d4d4d4;
+}
+
+.choosingTeacher{
+    align-content: center;
+    padding: 2%;
+}
+.choosingTeacher #nameOfTeacher{
+    margin: 1%;
+    width: 300px;
+}
+
+.search {
+    position: relative;
+}
+
+.search_result {
+    background: #FFF;
+    border: 1px #ccc solid;
+    width: 300px;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.search_result li {
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0 0 0 -40px;
+    color: black;
+    border-bottom: 1px #ccc solid;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search_result li:hover {
+    background: rgb(204, 204, 204);
+}
+
+.logo{
+    height: 40px;
+    width:  auto;
+}

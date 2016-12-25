@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="schedule" default="packSrc" basedir=".">
+    <target name="prepare">
+        <mkdir dir="build"></mkdir>
+    </target>
+    <target name="packSrc" depends="prepare">
+        <zip destfile="build/schedule.zip" basedir="."></zip>
+    </target>
+    <phpunit codecoverage="false" haltonfailure="true" haltonerror="true"
+             pharlocation="phpunit.phar">
+        <formatter type="plain" usefile="false"/>
+        <batchtest>
+            <fileset dir="tests">
+                <include name="tests/*Test.php"/>
+            </fileset>
+        </batchtest>
+    </phpunit>
+</project>

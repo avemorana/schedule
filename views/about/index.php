@@ -3,11 +3,11 @@
 <head>
     <?php
     $title = "Про нас";
-    require_once '/views/blocks/head.php';
+    require_once 'views/blocks/head.php';
     ?>
 </head>
 <body>
-<? require_once '/views/blocks/header.php' ?>
+<? require_once 'views/blocks/header.php' ?>
 <div class="content">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -19,6 +19,6 @@
         </div>
     </div>
 </div>
-<? require_once '/views/blocks/footer.php' ?>
+<? require_once 'views/blocks/footer.php' ?>
 </body>
 </html>

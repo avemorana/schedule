@@ -1,6 +1,6 @@
 <?php
 
-include_once '/models/Feedback.php';
+require_once 'models/Feedback.php';
 
 class FeedbackController
 {
@@ -18,7 +18,7 @@ class FeedbackController
                 exit;
             }
         }
-        require_once '/views/feedback/index.php';
+        require_once 'views/feedback/index.php';
         return true;
     }
 }

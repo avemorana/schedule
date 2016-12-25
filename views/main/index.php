@@ -3,12 +3,12 @@
 <head>
     <?php
     $title = "Розклад лекцій";
-    require_once '/views/blocks/head.php';
+    require_once 'views/blocks/head.php';
     ?>
 </head>
 <!--<body style="width:800px; margin:auto">-->
 <body>
-<? require_once '/views/blocks/header.php' ?>
+<? require_once 'views/blocks/header.php' ?>
 <div class="content" align="center">
 
     <h1 class="display-4 titlePage"> Вітаємо на головній сторінці!</h1>
@@ -41,6 +41,6 @@
     </div>
 
 </div>
-<? require_once '/views/blocks/footer.php' ?>
+<? require_once 'views/blocks/footer.php' ?>
 </body>
 </html>

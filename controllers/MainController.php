@@ -1,6 +1,6 @@
 <?php
 
-require_once '/models/Main.php';
+require_once 'models/Main.php';
 
 class MainController
 {
@@ -16,7 +16,7 @@ class MainController
             header('Location: teacher/' . $nameOfTeacher);
             exit();
         }
-        require_once '/views/main/index.php';
+        require_once 'views/main/index.php';
         return true;
     }
 

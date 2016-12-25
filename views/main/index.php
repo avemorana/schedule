@@ -19,7 +19,7 @@
             <? for ($i = 1; $i < 36; $i++) {
                 if ($i != 32 and $i != 34) {
                     ?>
-                    <input type="submit" class="btn numBuild" name="<?= $i ?>" value="<?= $i ?>">
+                    <input type="submit" class="btn numBuild" name="<?=$i ?>" value="<?=$i ?>">
                     <? if ($i % 12 == 0) {
                         echo "<br><br>";
                     }

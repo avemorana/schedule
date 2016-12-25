@@ -3,11 +3,11 @@
 <head>
     <?php
     $title = "Розклад лекцій";
-    require_once '/views/blocks/head.php';
+    require_once 'views/blocks/head.php';
     ?>
 </head>
 <body>
-<? require_once '/views/blocks/header.php' ?>
+<? require_once 'views/blocks/header.php' ?>
 
 <? $i = 0;
 $list = array();
@@ -105,6 +105,6 @@ while ($row = mysqli_fetch_array($result_set)) {
         </div>
     <? } ?>
 </div>
-<? require_once '/views/blocks/footer.php' ?>
+<? require_once 'views/blocks/footer.php' ?>
 </body>
 </html>

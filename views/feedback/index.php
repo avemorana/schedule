@@ -3,11 +3,11 @@
 <head>
     <?php
     $title = "Зворотній зв'язок";
-    require_once '/views/blocks/head.php';
+    require_once 'views/blocks/head.php';
     ?>
 </head>
 <body>
-<? require_once '/views/blocks/header.php' ?>
+<? require_once 'views/blocks/header.php' ?>
 <div class="content">
     <h1 class="display-4 titlePage"> Залиште свій відгук! </h1>
     <div class="form container">
@@ -41,6 +41,6 @@
         </form>
     </div>
 </div>
-<? require_once '/views/blocks/footer.php' ?>
+<? require_once 'views/blocks/footer.php' ?>
 </body>
 </html>

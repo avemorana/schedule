@@ -1,6 +1,6 @@
 <?php
 
-require_once '/models/Building.php';
+require_once 'models/Building.php';
 
 class BuildingController
 {

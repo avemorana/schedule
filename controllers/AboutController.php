@@ -10,7 +10,7 @@ class AboutController
 {
     public function actionIndex()
     {
-        require_once '/views/about/index.php';
+        require_once 'views/about/index.php';
         return true;
     }
 

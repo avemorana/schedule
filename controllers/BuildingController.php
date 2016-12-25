@@ -7,7 +7,7 @@ class BuildingController
     public function actionIndex($id)
     {
         $result_set = Building::getScheduleForBuild($id);
-        require_once '/views/building/index.php';
+        require_once 'views/building/index.php';
         return true;
     }
 }

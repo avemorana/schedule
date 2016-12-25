@@ -1,0 +1,11 @@
+language: php
+php:
+  - 5.6
+  - 7.0
+script:
+  - phpunit tests/AboutControllerTest.php
+  - phpunit tests/BuildingControllerTest.php
+  - phpunit tests/FeedbackControllerTest.php
+  - phpunit tests/MainControllerTest.php
+  - phpunit tests/SuccessControllerTest.php
+  - phpunit tests/TeacherControllerTest.php

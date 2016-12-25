@@ -4,5 +4,4 @@ php:
 script:
   - phpunit tests/AboutControllerTest.php
   - phpunit tests/FeedbackControllerTest.php
-  - phpunit tests/MainControllerTest.php
   - phpunit tests/SuccessControllerTest.php

@@ -4,7 +4,7 @@ class Database
 {
     private static $delay = 5;
     private static $maxDelay = 360;
-    private static $paramsPath = '/config/db_params.php';
+    private static $paramsPath = 'config/db_params.php';
     private static $params;
 
     public static function getConnection()

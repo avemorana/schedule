@@ -1,6 +1,6 @@
 <?php
 
-require_once '/components/Database.php';
+require_once 'components/Database.php';
 class Teacher
 {
     public static function getScheduleForTeacher($nameOfTeacher)
